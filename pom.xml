@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.omerucel</groupId>
+  <artifactId>freetts-sample-application</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>freetts-sample-application</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <repositories>
+      <repository>
+          <id>java.net</id>
+          <url>https://maven.java.net/content/repositories/public/</url>
+      </repository>
+      <repository>
+          <id>JBoss repository</id>
+          <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+      </repository>
+      <repository>
+          <id>sonatype-oss-public</id>
+          <url>https://oss.sonatype.org/content/groups/public/</url>
+          <releases>
+              <enabled>true</enabled>
+          </releases>
+          <snapshots>
+              <enabled>true</enabled>
+          </snapshots>
+      </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.swinglabs</groupId>
+        <artifactId>swing-layout</artifactId>
+        <version>1.0.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.mobicents.external.freetts</groupId>
+        <artifactId>freetts</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.mobicents.external.freetts</groupId>
+        <artifactId>en_us</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.mobicents.external.freetts</groupId>
+        <artifactId>cmu_us_kal</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.mobicents.external.freetts</groupId>
+        <artifactId>cmu_time_awb</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.mobicents.external.freetts</groupId>
+        <artifactId>cmulex</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.mobicents.external.freetts</groupId>
+        <artifactId>cmutimelex</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.mobicents.external.freetts</groupId>
+        <artifactId>cmudict04</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+  </dependencies>
+</project>
